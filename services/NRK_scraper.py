@@ -20,4 +20,5 @@ def scrape():
 
 title, img, article_link = scrape()
 
+# Upload send data to api
 res = requests.post('http://127.0.0.1:8000/', data={'Title': title, "img": img, "link": article_link, "network": 1})
