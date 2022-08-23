@@ -9,7 +9,6 @@ class Channel(models.Model):
 
 class News(models.Model):
     Title = models.TextField(max_length=255)
-    content = models.TextField(max_length=255)
     img = models.URLField()
     link = models.URLField()
     network = models.ForeignKey(Channel, on_delete=models.CASCADE)
