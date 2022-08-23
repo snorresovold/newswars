@@ -8,9 +8,9 @@ class Channel(models.Model):
 
 
 class News(models.Model):
-    Title = models.TextField(max_length=255)
-    img = models.URLField()
-    link = models.URLField()
+    Title = models.TextField(max_length=1000000)
+    img = models.URLField(max_length=1000000)
+    link = models.URLField(max_length=1000000)
     network = models.ForeignKey(Channel, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     def __str__(self):
