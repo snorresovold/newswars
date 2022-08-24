@@ -2,7 +2,6 @@ from rest_framework import viewsets, generics
 from .serializers import NewsSerializer
 from .models import News
 from rest_framework.response import Response
-from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 class NewsViewSet(generics.ListCreateAPIView):
