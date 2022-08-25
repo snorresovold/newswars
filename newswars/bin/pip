@@ -1,4 +1,4 @@
-#!/Users/snorrresovold/Documents/Fullstack/newswars/newswars/bin/python3
+#!/Users/snorrresovold/Documents/Fullstack/newswars/newswars/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -11,7 +11,8 @@ page_text = doc.find(class_="kur-room__content")
 
 def scrape():
     title_source = doc.find(class_="kur-room__content")
-    title = str(title_source.span.contents[4])
+    #print(title_source)
+    title = str(title_source.span.contents[0])
     img_source = doc.find_all("img")
     img = str(img_source[0]).split()[38]
     article_source = doc.find_all("a")[45]
@@ -23,4 +24,4 @@ title, img, article_link = scrape()
 
 # Upload send data to api
 res = requests.post('http://127.0.0.1:8000', data={'Title': title, "img": img, "link": article_link, "network": 1})
-#print(res)
+print(res)
