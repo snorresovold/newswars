@@ -25,7 +25,7 @@ SECRET_KEY = 'h!kfj@ct3o@7ts^w7xj93&gsy8%kk5ccquhr6)(@-m-qea8ije'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['newswars.eba-utp8pfxh.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['newswars.eba-utp8pfxh.us-west-2.elasticbeanstalk.com', "127.0.0.1"]
 
 
 # Application definition
@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "rest_framework",
+
+    "news",
 ]
 
 MIDDLEWARE = [
