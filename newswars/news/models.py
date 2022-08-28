@@ -7,11 +7,11 @@ class Channel(models.Model):
         return self.name
 
 class News(models.Model):
-    Title = models.TextField(max_length=10000)
-    img = models.URLField(max_length=10000)
-    link = models.URLField(max_length=10000)
+    title = models.TextField(max_length=1000)
+    img = models.URLField(max_length=1000)
+    link = models.URLField(max_length=1000)
     network = models.ForeignKey(Channel, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     def __str__(self):
-        return self.Title
+        return self.title
 	
