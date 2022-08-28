@@ -12,7 +12,8 @@ page_text = doc.find(class_="kur-room__content")
 def scrape():
     title_source = doc.find(class_="kur-room__content")
     #print(title_source)
-    title = str(title_source.span.contents[0])
+    title = str(title_source.span.contents[1])
+    print(type(title))
     img_source = doc.find_all("img")
     img = str(img_source[0]).split()[38]
     article_source = doc.find_all("a")[45]
