@@ -1,43 +1,14 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 
-function minuteCount(minutesAfterHour: any) {
+const Timer = (props:any) => {
+    const {initialMinute = 0,initialSeconds = 0} = props;
 
-    const now          = new Date();
-    const hours        = now.getHours();
-    const minutes      = now.getMinutes();
-    const seconds      = now.getSeconds();
-    const milliseconds = now.getMilliseconds();
-
-    const waitUntilNextMinute = setTimeout(minuteCount, 60000 - seconds * 1000 - milliseconds);
-
-    if(minutes % 60 === minutesAfterHour) {
-        console.log("sus")
-    }
-
-}
-
-minuteCount(45);
-
-const Timer = () => {
-    const now = new Date();
-    const [ minutes, setMinutes ] = useState(now.getMinutes());
-    const [ seconds, setSeconds ] =  useState(now.getSeconds());
-
-    const TimeHandler = () => {
-        let myInterval = setInterval(() => {
-            now.getMinutes()
-        })
-
-        return(
-            myInterval
-        );
-    }
-    
+    const [ minutes, setMinutes ] = useState(initialMinute);
+    const [seconds, setSeconds ] =  useState(initialSeconds);
     useEffect(()=>{
-
         let myInterval = setInterval(() => {
-                if (seconds > 0) {
+            if (seconds > 0) {
                     setSeconds(seconds - 1);
                 }
                 if (seconds === 0) {
@@ -47,16 +18,25 @@ const Timer = () => {
                         setMinutes(minutes - 1);
                         setSeconds(59);
                     }
-                } 
+                }
             }, 1000)
-            return ()=> {
-                clearInterval(myInterval);
+            if (minutes === 0 && seconds === 0) {
+                setMinutes(15)
             };
-        });
+        if (minutes <= 0) {
+                setMinutes(15)
+            }
+        return ()=> {
+            clearInterval(myInterval);
+          };
+    });
 
     return (
         <div>
-            <h1>hello</h1>
+        { minutes === 0 && seconds === 0
+            ? 15
+            : <h1> {minutes}:{seconds < 10 ?  `0${seconds}` : seconds}</h1> 
+        }
         </div>
     )
 }
