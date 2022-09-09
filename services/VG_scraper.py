@@ -19,5 +19,5 @@ title, img, article_link = scrape()
 print(title[0], img, article_link)
 
 # Upload send data to api
-res = requests.post('http://127.0.0.1:8000', data={'title': title[0], "img": img, "link": article_link, "network": 1})
+res = requests.post('http://127.0.0.1:8000', data={'title': title[0], "img": img, "link": article_link, "channel": 1})
 print(res)

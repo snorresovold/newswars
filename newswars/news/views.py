@@ -1,8 +1,7 @@
 from rest_framework import generics
-from .serializers import NewsSerializer
-from .models import News
+from .serializers import ChannelSerializer, NewsSerializer
+from .models import Channel, News
 from rest_framework.response import Response
-
 # Create your views here.
 class NewsViewSet(generics.ListCreateAPIView):
     """
@@ -16,3 +15,11 @@ class NewsViewSet(generics.ListCreateAPIView):
         queryset = self.get_queryset()
         serializer = NewsSerializer(queryset, many=True)
         return Response(serializer.data)
+
+
+class ChannelViewSet(generics.ListCreateAPIView):
+    """
+    API endpoint that allows news to be viewed or edited.
+    """
+    queryset = Channel.objects.all()
+    serializer_class = ChannelSerializer
