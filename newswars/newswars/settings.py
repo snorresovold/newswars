@@ -39,16 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     "rest_framework",
-    #"corsheaders",
+    "corsheaders",
 
     "news",
 ]
 
-REST_FRAMEWORK = {
-}
-
-
-#CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -59,7 +55,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    #"corsheaders.middleware.CorsMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
     #"django.middleware.common.CommonMiddleware",
 ]
 
