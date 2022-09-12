@@ -1,5 +1,3 @@
-import Split from "../components/Split";
-
 export default function Home() {
   let getChannelPosts = async ()=> {
     let response = await fetch('http://127.0.0.1:8000/channel', {
