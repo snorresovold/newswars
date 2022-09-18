@@ -3,6 +3,8 @@ from django.db import models
 # Create your models here.
 class Channel(models.Model):
     name = models.TextField(max_length=255)
+    logo = models.URLField(max_length=1000)
+    colour = models.CharField(max_length=20)
 
     def get_news(self):
         x = Channel.objects.get(name=self.name)
