@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
+REST_FRAMEWORK = {
+    'DATETIME_FORMAT': '%s000',
+}
 
 # Application definition
 

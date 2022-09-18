@@ -17,7 +17,7 @@ class NewsViewSet(generics.ListCreateAPIView):
         return Response(serializer.data)
 
 
-class ChannelViewSet(generics.ListCreateAPIView):
+class ChannelsViewSet(generics.ListCreateAPIView):
     """
     API endpoint that allows news to be viewed or edited.
     """
