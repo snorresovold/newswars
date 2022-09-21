@@ -4,16 +4,17 @@ import Image from 'next/image'
 
 function Channel({ props }:any) {
   const name = props.name // looks ugly but works (wtf)
+  const color = props.color
   return (
-    <div className='m-4 w-96'>
-      <div className='flex flex-row justify-center items-center'>
-        <h1>{name}</h1>
-        <img src={props.logo} width={46} height={46} className="flex flex-row justify-center items-center"/>
-     
+    <div className='m-4 w-96 box-border border-4 overflow-y-scroll h-3/6'>
+      <div>
+        <img src={props.logo} width={1000} height={1000}/>
       </div>
-       {props.news.map((props: any) =>
-        <Post props={props} channel={name}/>
+      <div>
+      {props.news.map((props: any) =>
+        <Post props={props} channel={name} color={color} />
       )}
+      </div>
     </div>
   )
 }
