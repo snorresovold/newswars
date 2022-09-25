@@ -1,12 +1,9 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/snorresovold/newswars/services/golang/gaming"
+	"github.com/snorresovold/newswars/services/golang/scraper"
 )
 
 func main() {
-	fmt.Println("sus")
-	gaming.Cs()
+	scraper.Scrape("https://www.vg.no/rss/feed")
 }
