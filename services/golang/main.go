@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	scraper.Scrape("https://www.vg.no/rss/feed")
+	scraper.Scrape()
 }
