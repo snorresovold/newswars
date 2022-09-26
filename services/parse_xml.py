@@ -11,7 +11,6 @@ resp = requests.get(url)
 with open('topnewsfeed.xml', 'wb') as f:
     f.write(resp.content)
 
-
 #print(resp.content)
 def parseXML(xmlfile):
   
