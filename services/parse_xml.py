@@ -1,9 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
 
-url = "https://www.vg.no/rss/feed"
-
-
 # url of rss feed
 url = "https://www.vg.no/rss/feed"
 
