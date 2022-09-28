@@ -1,15 +1,21 @@
 import requests
 import xml.etree.ElementTree as ET
 
+channels = {
+    "dagbladet" : "https://www.dagbladet.no/?lab_viewport=rss",
 
-def parse(url):
+}
+
+def parse(name, url):
     # url of rss feed
 
     # creating HTTP response object from given url
     resp = requests.get(url)
 
+    file = name + ".xml"
+
     # saving the xml file
-    with open('topnewsfeed.xml', 'wb') as f:
+    with open(file, 'wb') as f:
         f.write(resp.content)
 
     #print(resp.content)
@@ -45,9 +51,11 @@ def parse(url):
         # return news items list
         #print(newsitems[0])
         for x in newsitems:
-            print(x)
+            print(str(x))
         return newsitems
 
-    parseXML("topnewsfeed.xml")
+    parseXML(file)
 
-parse("https://www.dagbladet.no/?lab_viewport=rss")
+
+for x, y in channels.items():
+    parse(x, y)
