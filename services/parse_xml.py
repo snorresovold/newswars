@@ -40,7 +40,6 @@ def parse(name, url):
             # iterate child elements of item 
 
             for child in item:
-    
                 # special checking for namespace object content:media
                 if child.tag == '{http://search.yahoo.com/mrss/}content':
                     news['media'] = child.attrib['url']
