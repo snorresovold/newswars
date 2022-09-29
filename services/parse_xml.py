@@ -12,7 +12,7 @@ def parse(name, url):
     # creating HTTP response object from given url
     resp = requests.get(url)
 
-    file = name + ".xml"
+    file = f"{name}.xml"
 
     # saving the xml file
     with open(file, 'wb') as f:
