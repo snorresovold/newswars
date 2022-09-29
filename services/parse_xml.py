@@ -3,7 +3,8 @@ import xml.etree.ElementTree as ET
 
 channels = {
     "dagbladet" : "https://www.dagbladet.no/?lab_viewport=rss",
-
+    "vg" : "https://www.vg.no/rss/feed",
+    "nrk" : "https://www.nrk.no/toppsaker.rss"
 }
 
 def parse(name, url):
@@ -36,7 +37,8 @@ def parse(name, url):
             # empty news dictionary
             news = {}
     
-            # iterate child elements of item
+            # iterate child elements of item 
+
             for child in item:
     
                 # special checking for namespace object content:media
@@ -55,7 +57,6 @@ def parse(name, url):
         return newsitems
 
     parseXML(file)
-
 
 for x, y in channels.items():
     parse(x, y)
