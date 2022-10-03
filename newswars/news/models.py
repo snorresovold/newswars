@@ -19,7 +19,6 @@ class News(models.Model):
     link = models.URLField(max_length=1000)
     channel = models.ForeignKey(Channel, on_delete=models.CASCADE, related_name="news")
     created_at = models.DateTimeField(auto_now_add=True)
-    pub_date = models.TextField(max_length=100)
     
     def __str__(self):
         return self.title

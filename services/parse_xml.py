@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 channels = {
     "dagbladet" : "https://www.dagbladet.no/?lab_viewport=rss",
     "vg" : "https://www.vg.no/rss/feed",
-    "nrk" : "https://www.nrk.no/toppsaker.rss"
+    "nrk" : "https://www.nrk.no/toppsaker.rss",
 }
 
 def parse(name, url):
@@ -52,10 +52,11 @@ def parse(name, url):
         # return news items list
         #print(newsitems[0])
         for x in newsitems:
-            print(str(x))
+                requests.post("http://127.0.0.1:8000/", data={'title': x["title"], "img" : "https://www.hollywoodreporter.com/wp-content/uploads/2020/03/bcs_503_gl_0514_0595_rt-h_2020.jpg", "link" : x["link"], 'channel': 1})
         return newsitems
 
     parseXML(file)
+    
 
 for x, y in channels.items():
     parse(x, y)
