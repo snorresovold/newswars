@@ -7,6 +7,10 @@ channels = {
     "nrk" : "https://www.nrk.no/toppsaker.rss",
 }
 
+def match(new, old):
+    if new == old:
+        return True
+
 def parse(name, url):
     # url of rss feed
 
@@ -52,6 +56,8 @@ def parse(name, url):
         # return news items list
         #print(newsitems[0])
         for x in newsitems:
+                #print(x["media"])
+                print(x)
                 requests.post("http://127.0.0.1:8000/", data={'title': x["title"], "img" : "https://www.hollywoodreporter.com/wp-content/uploads/2020/03/bcs_503_gl_0514_0595_rt-h_2020.jpg", "link" : x["link"], 'channel': 1})
         return newsitems
 
