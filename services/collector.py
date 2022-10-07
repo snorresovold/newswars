@@ -15,7 +15,6 @@ def convert(name, url):
 def parse(input):
     # create element tree object
     tree = ET.parse(input)
-
     # get root element
     root = tree.getroot()
 
@@ -46,7 +45,8 @@ def match(name, url):
     name_data = parse(con_name)
     url_data = parse(con_url)
     curated_list = [x for x in url_data if x not in name_data]
-
+    with open(con_name, 'wb') as f:
+        f.write(url_data)
     return curated_list
 
 for name, url in channels.items():
