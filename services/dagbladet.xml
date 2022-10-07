@@ -6,11 +6,25 @@
         <link>https:&#x2F;&#x2F;www.dagbladet.no</link>
         <description>Artikler fra forsiden Dagbladet - først med siste nytt</description>
         <item>
+    <title>Reagerer: - Leit</title>
+    <link>https:&#x2F;&#x2F;www.dagbladet.no&#x2F;studio&#x2F;sportsstudio&#x2F;307?post=109148</link>
+    <guid>/a/</guid>
+    <description></description>
+     <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77382452.jpg?imageId=77382452&amp;x=27.433628318584&amp;y=9.5026642984014&amp;cropw=21.533923303835&amp;croph=38.365896980462&amp;width=395&amp;height=468" length="0" type="image/jpeg" />
+</item>
+<item>
     <title>NÅ:&amp;nbsp;Trekker seg</title>
-    <link>https:&#x2F;&#x2F;www.dagbladet.no&#x2F;studio&#x2F;sportsstudio&#x2F;307?post=109145</link>
+    <link>https:&#x2F;&#x2F;www.dagbladet.no&#x2F;sport&#x2F;trekker-seg&#x2F;77382334</link>
     <guid>/a/</guid>
     <description></description>
      <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77382315.jpg?imageId=77382315&amp;x=38.483234095895&amp;y=26.344676180022&amp;cropw=30.711375744281&amp;croph=19.209659714599&amp;width=1058&amp;height=378" length="0" type="image/jpeg" />
+</item>
+<item>
+    <title>- Stort slag</title>
+    <link>https:&#x2F;&#x2F;www.dagbladet.no&#x2F;video&#x2F;live&#x2F;EI49cgQ4</link>
+    <guid>/a/</guid>
+    <description></description>
+     <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77382435.jpg?imageId=77382435&amp;x=49.682875264271&amp;y=12.65664160401&amp;cropw=32.487667371388&amp;croph=56.892230576441&amp;width=462&amp;height=455&amp;compression=80" length="0" type="image/jpeg" />
 </item>
 <item>
     <title>Kommer med Svalbard-anklager</title>
@@ -18,21 +32,6 @@
     <guid>/a/</guid>
     <description></description>
      <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77382271.jpg?imageId=77382271&amp;x=35.29945553539&amp;y=18.417462482947&amp;cropw=32.486388384755&amp;croph=36.016371077763&amp;width=359&amp;height=265&amp;compression=80" length="0" type="image/jpeg" />
-</item>
-<item>
-    <title>- Verdige vinnere</title>
-    <link>https:&#x2F;&#x2F;www.dagbladet.no&#x2F;studio&#x2F;nyhetsstudio&#x2F;5?post=109137</link>
-    <guid>/a/</guid>
-    <description></description>
-     <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77382041.jpg?imageId=77382041&amp;x=28.304597701149&amp;y=6.0344827586207&amp;cropw=61.637931034483&amp;croph=73.922413793103&amp;width=464&amp;height=371" length="0" type="image/jpeg" />
-</item>
-<item>
-    <title>Hylles</title>
-    <link>https://www.dagbladet.no&#x2F;nyheter&#x2F;helt-utrolig-fantastisk&#x2F;77382002</link>
-    <guid>https://www.dagbladet.no/a/77382002</guid>
-        <pubDate>Fri, 07 Oct 2022 09:39:08 GMT</pubDate>
-    <description>Den norske Helsingforskomiteen, som lenge har hatt et tett sammarbeid med alle tre fredsprisvinnere, mener at fredsprisen er en stor annerkjennesle for jobben de gjør.</description>
-     <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77382223.jpg?imageId=77382223&amp;x=18.727490996399&amp;y=22.98951048951&amp;cropw=58.823529411765&amp;croph=38.548951048951&amp;width=1058&amp;height=477" length="0" type="image/jpeg" />
 </item>
 <item>
     <title>I sorg</title>
@@ -46,7 +45,15 @@
     <link>https:&#x2F;&#x2F;borsen.dagbladet.no&#x2F;nyheter&#x2F;advarer-ny-okonomisk-krise&#x2F;77381784</link>
     <guid>/a/</guid>
     <description></description>
-     <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77381159.jpg?imageId=77381159&amp;x=0&amp;y=13.003095975232&amp;cropw=100&amp;croph=45.510835913313&amp;width=486&amp;height=148&amp;compression=80" length="0" type="image/jpeg" />
+     <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77381159.jpg?imageId=77381159&amp;x=0&amp;y=13.003095975232&amp;cropw=100&amp;croph=57.894736842105&amp;width=486&amp;height=188&amp;compression=80" length="0" type="image/jpeg" />
+</item>
+<item>
+    <title>Hylles</title>
+    <link>https://www.dagbladet.no&#x2F;nyheter&#x2F;helt-utrolig-fantastisk&#x2F;77382002</link>
+    <guid>https://www.dagbladet.no/a/77382002</guid>
+        <pubDate>Fri, 07 Oct 2022 09:39:08 GMT</pubDate>
+    <description>Den norske Helsingforskomiteen, som lenge har hatt et tett sammarbeid med alle tre fredsprisvinnere, mener at fredsprisen er en stor annerkjennesle for jobben de gjør.</description>
+     <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77382223.jpg?imageId=77382223&amp;x=18.727490996399&amp;y=22.98951048951&amp;cropw=58.823529411765&amp;croph=38.548951048951&amp;width=1058&amp;height=477" length="0" type="image/jpeg" />
 </item>
 <item>
     <title>Carmen (91) kaster klærne</title>
@@ -54,7 +61,14 @@
     <guid>https://www.dagbladet.no/a/77367712</guid>
         <pubDate>Fri, 07 Oct 2022 09:47:51 GMT</pubDate>
     <description>Viser hud i ny fotoshoot.</description>
-     <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77381426.jpg?imageId=77381426&amp;x=25.973053892216&amp;y=35.309446254072&amp;cropw=26.721556886228&amp;croph=16.015625&amp;width=357&amp;height=246&amp;compression=80" length="0" type="image/jpeg" />
+     <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77381426.jpg?imageId=77381426&amp;x=25.59880239521&amp;y=36.8068359375&amp;cropw=26.721556886228&amp;croph=19.270833333333&amp;width=357&amp;height=296&amp;compression=80" length="0" type="image/jpeg" />
+</item>
+<item>
+    <title>Skrinlegger planer</title>
+    <link>https:&#x2F;&#x2F;www.dagbladet.no&#x2F;studio&#x2F;kjendisstudio&#x2F;668?post=109146</link>
+    <guid>/a/</guid>
+    <description></description>
+     <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77382375.jpg?imageId=77382375&amp;x=0&amp;y=14.710252600297&amp;cropw=97.125867195243&amp;croph=54.680534918276&amp;width=980&amp;height=368&amp;compression=80" length="0" type="image/jpeg" />
 </item>
 <item>
     <title>Tente på: Verdt 100 millioner</title>
@@ -107,6 +121,13 @@
         <pubDate>Fri, 07 Oct 2022 08:12:21 GMT</pubDate>
     <description>Fellesstarter uten Therese Johaug kan gi nye løpsopplegg og endring i kravene og fokusområdene til utøverne. Både eks-rivalen Krista Pärmäkoski og Johaugs tidligere trener Pål Gunnar Mikkelsplass tror ringvirkningene av Johaugs farvel også kan medføre noe positivt til langrennssporten.</description>
      <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77381538.jpg?imageId=77381538&amp;x=23.747680890538&amp;y=26.280834914611&amp;cropw=60.606060606061&amp;croph=41.840607210626&amp;width=980&amp;height=441&amp;compression=80" length="0" type="image/jpeg" />
+</item>
+<item>
+    <title>- Verdige vinnere</title>
+    <link>https:&#x2F;&#x2F;www.dagbladet.no&#x2F;studio&#x2F;nyhetsstudio&#x2F;5?post=109137</link>
+    <guid>/a/</guid>
+    <description></description>
+     <enclosure url="https:&#x2F;&#x2F;www.dagbladet.no&#x2F;images&#x2F;77382041.jpg?imageId=77382041&amp;x=28.304597701149&amp;y=6.0344827586207&amp;cropw=61.637931034483&amp;croph=73.922413793103&amp;width=464&amp;height=371" length="0" type="image/jpeg" />
 </item>
 <item>
     <title>Får fredsprisen</title>
