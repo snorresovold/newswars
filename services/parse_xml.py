@@ -7,10 +7,6 @@ channels = {
     "nrk" : "https://www.nrk.no/toppsaker.rss",
 }
 
-def match(new, old):
-    if new == old:
-        return True
-
 def parse(name, url):
     # url of rss feed
 
