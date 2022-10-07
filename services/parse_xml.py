@@ -72,20 +72,14 @@ def parse(name, url):
             #print(len(newsitems), "raw_new")
             #new_items = [x for x in newsitems if x not in olditems]
             #print(len(new_items), "new")
-            if item in newsitems and olditems:
-                print("yo?")
-
-        
         # return news items list
-        # print(newsitems[0])
+        #print(newsitems[0])
         for x in newsitems:
-            if x in olditems:
+            try:
+                requests.post("http://127.0.0.1:8000/", data={'title': x["title"], "img" : x["media"], "link" : x["link"], 'channel': 1})
+                print(x["title"])
+            except:
                 pass
-            else:
-                try:
-                    requests.post("http://127.0.0.1:8000/", data={'title': x["title"], "img" : "https://www.hollywoodreporter.com/wp-content/uploads/2020/03/bcs_503_gl_0514_0595_rt-h_2020.jpg", "link" : x["link"], 'channel': 1})
-                except:
-                    pass
             return newsitems
     parseXML(file)
     
