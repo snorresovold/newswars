@@ -1,5 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
+import os
 channels = {
     "dagbladet" : "https://www.dagbladet.no/?lab_viewport=rss",
     "vg" : "https://www.vg.no/rss/feed",
@@ -13,11 +14,10 @@ def parse(name, url):
     resp = requests.get(url)
 
     file = f"{name}.xml"
-
+    os.rename(file, "TEMP.xml")
     # saving the xml file
-    with open("TEMP.xml", 'wb') as f:
+    with open(file, 'wb') as f:
         f.write(resp.content)
-
     #print(resp.content)
     def parseXML(xmlfile):
     
@@ -50,7 +50,7 @@ def parse(name, url):
 
             # append news dictionary to news items list
             olditems.append(oldnews)
-            print(len(olditems), "old")
+            #print(len(olditems), "old")
     
         # iterate news items
         for item in root.findall('./channel/item'):
@@ -69,21 +69,24 @@ def parse(name, url):
 
             # append news dictionary to news items list
             newsitems.append(news)
-            print(len(newsitems), "raw_new")
-            newsitems = [x for x in newsitems if x not in olditems]
-            print(len(newsitems), "new")
+            #print(len(newsitems), "raw_new")
+            #new_items = [x for x in newsitems if x not in olditems]
+            #print(len(new_items), "new")
+            if item in newsitems and olditems:
+                print("yo?")
 
         
         # return news items list
         # print(newsitems[0])
         for x in newsitems:
-                #print(x["media"])
-            print(x)
-            try:
-                requests.post("http://127.0.0.1:8000/", data={'title': x["title"], "img" : "https://www.hollywoodreporter.com/wp-content/uploads/2020/03/bcs_503_gl_0514_0595_rt-h_2020.jpg", "link" : x["link"], 'channel': 1})
-            except:
+            if x in olditems:
                 pass
-        return newsitems
+            else:
+                try:
+                    requests.post("http://127.0.0.1:8000/", data={'title': x["title"], "img" : "https://www.hollywoodreporter.com/wp-content/uploads/2020/03/bcs_503_gl_0514_0595_rt-h_2020.jpg", "link" : x["link"], 'channel': 1})
+                except:
+                    pass
+            return newsitems
     parseXML(file)
     
 while True:
