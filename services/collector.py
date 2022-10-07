@@ -1,4 +1,3 @@
-from symbol import continue_stmt
 import requests
 import xml.etree.ElementTree as ET
 
@@ -11,9 +10,9 @@ channels = {
 def convert(name, url):
     file = f"{name}.xml"
     resp = requests.get(url)
-    return file, resp
+    return file, resp.content
 
-def parse(input): 
+def parse(input):
     # create element tree object
     tree = ET.parse(input)
 
@@ -40,12 +39,6 @@ def parse(input):
 
         # append news dictionary to news items list
         newsitems.append(news)
-
-    # return news items list
-    #print(newsitems[0])
-    for x in newsitems:
-            #print(x["media"])
-            requests.post("http://127.0.0.1:8000/", data={'title': x["title"], "img" : "https://www.hollywoodreporter.com/wp-content/uploads/2020/03/bcs_503_gl_0514_0595_rt-h_2020.jpg", "link" : x["link"], 'channel': 1})
     return newsitems
 
 def match(name, url):
@@ -53,3 +46,8 @@ def match(name, url):
     name_data = parse(con_name)
     url_data = parse(con_url)
     curated_list = [x for x in url_data if x not in name_data]
+
+    return curated_list
+
+for name, url in channels.items():
+    match(name, url)
