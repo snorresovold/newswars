@@ -1,7 +1,7 @@
-from typing import List
 import requests
 import xml.etree.ElementTree as ET
 import os
+import threading
 
 channels = {
     "dagbladet" : "https://www.dagbladet.no/?lab_viewport=rss",
@@ -58,15 +58,18 @@ def parse_file(file):
         newsitems.append(news)
     return newsitems
 
+
+
 while True:
-    # get old items
-    old_list = parse_file(convert("dagbladet"))
-    # get scrape new items
-    create_file("dagbladet", "https://www.dagbladet.no/?lab_viewport=rss")
-    # store them
-    new_list = parse_file(convert("dagbladet"))
+    for x, y in channels.items():
+        old_list = parse_file(convert(x))
+        # get scrape new items
+        create_file(x, y)
+        # store them
+        new_list = parse_file(convert(x))
 
-    # curate
-    curated_list = match(new_list, old_list)
-
-    print(curated_list)
+        # curate
+        curated_list = match(new_list, old_list)
+        print(f"done with {x}")
+        print(curated_list)
+        create_file(x, y)
