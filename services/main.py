@@ -75,6 +75,8 @@ while True:
         print(curated_list)
         if len(curated_list) != 0:
             for i in curated_list:
+                print("sleeping 1 second")
+                time.sleep(1) # hopeful error fix
                 requests.post("http://127.0.0.1:8000/", data={'title': i["title"], "link" : i["link"], 'channel': id})
         else:
             print("curated list is empty")
