@@ -60,7 +60,6 @@ def parse_file(file):
 
 
 while True:
-    time.sleep(3600) # sleep 1 hour
     id = 0
     for x, y in channels.items():
         old_list = parse_file(convert(x))
@@ -76,7 +75,11 @@ while True:
         if len(curated_list) != 0:
             for i in curated_list:
                 try:
-                    requests.post("http://127.0.0.1:8000/", data={'title': i["title"], "img" : i["media"], "link" : i["link"], 'channel': id})
+                    try:
+                        requests.post("http://127.0.0.1:8000/", data={'title': i["title"], "img" : i["img"], "link" : i["link"], 'channel': id})
+                    except:
+
+                        requests.post("http://127.0.0.1:8000/", data={'title': i["title"], "img" : "https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png", "link" : i["link"], 'channel': id})
                 except:
                     print("couldt upload")
         else:
