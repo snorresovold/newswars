@@ -6,6 +6,8 @@ channels = {
     "dagbladet" : "https://www.dagbladet.no/?lab_viewport=rss",
     "vg" : "https://www.vg.no/rss/feed",
     "nrk" : "https://www.nrk.no/toppsaker.rss",
+    "tv2" : "https://www.tv2.no/rest/cms-feeds-dw-rest/v2/cms/article/nyheter",
+    "dagavisen" : "https://www.dagsavisen.no/arc/outboundfeeds/rss/"
 }
 
 # lambda funksjon som sletter alle items i list1 som er i list2
@@ -74,14 +76,7 @@ while True:
         print(curated_list)
         if len(curated_list) != 0:
             for i in curated_list:
-                try:
-                    try:
-                        requests.post("http://127.0.0.1:8000/", data={'title': i["title"], "img" : i["img"], "link" : i["link"], 'channel': id})
-                    except:
-
-                        requests.post("http://127.0.0.1:8000/", data={'title': i["title"], "img" : "https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png", "link" : i["link"], 'channel': id})
-                except:
-                    print("couldt upload")
+                requests.post("http://127.0.0.1:8000/", data={'title': i["title"], "img" : i["media"], "link" : i["link"], 'channel': id})
         else:
             print("curated list is empty")
 
