@@ -63,6 +63,7 @@ def parse_file(file):
 while True:
     id = 0
     for x, y in channels.items():
+        id += 1 
         print(f"id of {x} is {id}")
         old_list = parse_file(convert(x))
         # get scrape new items
@@ -85,6 +86,5 @@ while True:
 
         # we need to create a new file at the end so we can use it for the next old_list
         create_file(x, y)
-        id += 1
         time.sleep(1)
-        print("sleeping")
+        print("sleeping \n")

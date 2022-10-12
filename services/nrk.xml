@@ -14,6 +14,26 @@
       <height>114</height>
     </image>
     <item>
+      <title>Fotballpresidenten møter pressen</title>
+      <link>https://www.nrk.no/trondelag/norges-fotballforbund_-nff_-med-flere-nyheter-om-norsk-fotball-1.16136314</link>
+      <description>Fotballpresident Lise Klaveness snakker blant annet om Toppserien og cupen neste år.</description>
+      <category>Trøndelag</category>
+      <category>Trondheim</category>
+      <category>Sport</category>
+      <category>Fotball</category>
+      <category>Norge</category>
+      <category>NFF</category>
+      <category>Oslo</category>
+      <pubDate>Wed, 12 Oct 2022 11:44:05 GMT</pubDate>
+      <guid isPermaLink="false">1.16136314</guid>
+      <dc:creator>Lena Erikke Hatland</dc:creator>
+      <dc:date>2022-10-12T11:44:05Z</dc:date>
+      <media:content medium="image" type="image/jpeg" url="https://gfx.nrk.no/fmBDVbWoAEWC1RWmLV0rDQgULe1KCs6SGPVUZXh4d6FA.jpg">
+        <media:credit role="photographer" scheme="urn:ebu">Javad Parsa/Javad Parsa</media:credit>
+        <media:title>Lise Klaveness</media:title>
+      </media:content>
+    </item>
+    <item>
       <title>Glimt har vært «uslåelig» på hjemmebane i Europa - ryker seiersrekken mot Arsenal?</title>
       <link>https://www.nrk.no/nordland/bodo_glimt-med-imponerende-seiersrekke-for-arsenal-kampen-1.16134998</link>
       <description>Bodø/Glimt-trener Kjetil Knutsen møter pressen foran møtet med Arsenal i Europaligaen. De engelske serielederne møter et Glimt-lag med 14 strake seiere på hjemmebane i europacuper.</description>
@@ -56,9 +76,9 @@ Normalen de siste 20 årene har vært et nivå på 81,7 prosent på denne tiden 
       <dc:date>2022-10-12T11:04:55Z</dc:date>
     </item>
     <item>
-      <title>Tore åt seg frisk frå diabetes</title>
+      <title>Tore åt seg frisk frå diabetes type 2</title>
       <link>https://www.nrk.no/vestland/tore-at-seg-frisk-fra-diabetes-1.16135020</link>
-      <description>Behandling av diabetes har i dag for mykje fokus på medisinar og for lite på mat, meiner ernæringsfysiologar bak ny forsking.</description>
+      <description>Behandling av diabetes 2 har i dag for mykje fokus på medisinar og for lite på mat, meiner ernæringsfysiologar bak ny forsking.</description>
       <category>Helse</category>
       <category>Mat og kosthold</category>
       <pubDate>Wed, 12 Oct 2022 09:26:02 GMT</pubDate>
@@ -1576,22 +1596,6 @@ frivillig for Hjelp oss å hjelpe Østfold</media:title>
       <media:content medium="image" type="image/jpeg" url="https://gfx.nrk.no/qmDxCAf5ZIyUxaYffQHZ8Alld-vyRKlFP5ufNhFFMawQ.jpg">
         <media:credit role="photographer" scheme="urn:ebu">Privat</media:credit>
         <media:title>Sjømannsprest Leif Magne Helgesen er i Kyiv, der det har vært flere kraftige eksplosjoner</media:title>
-      </media:content>
-    </item>
-    <item>
-      <title>Taiwan: Vi gir aldri opp demokratiet</title>
-      <link>https://www.nrk.no/urix/taiwan_-vi-gir-aldri-opp-demokratiet-1.16133409</link>
-      <description>Taiwans president Tsai Ing-wen advarer myndighetene i Beijing om at øya aldri kommer til å gi slipp på sin demokratiske levemåte.</description>
-      <category>Urix</category>
-      <category>Kina</category>
-      <category>Taiwan</category>
-      <pubDate>Mon, 10 Oct 2022 08:05:29 GMT</pubDate>
-      <guid isPermaLink="false">1.16133409</guid>
-      <dc:creator>Zofia Paszkiewicz</dc:creator>
-      <dc:date>2022-10-10T08:05:29Z</dc:date>
-      <media:content medium="image" type="image/jpeg" url="https://gfx.nrk.no/4rxFHYlL7StJ85Gcb02ZMQ2LKtE_0B3rdHUDdAlXw3wQ.jpg">
-        <media:credit role="photographer" scheme="urn:ebu">SAM YEH/AFP</media:credit>
-        <media:title>Politiet holder det taiwanske flagget på landets nasjonaldagen</media:title>
       </media:content>
     </item>
   </channel>

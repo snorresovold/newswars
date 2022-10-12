@@ -6,8 +6,8 @@
     <description>Aktuelle artikler fra TV 2</description>
     <language>no</language>
     <copyright>2022 TV 2 AS</copyright>
-    <pubDate>Wed, 12 Oct 2022 10:23:48 GMT</pubDate>
-    <dc:date>2022-10-12T10:23:48Z</dc:date>
+    <pubDate>Wed, 12 Oct 2022 11:53:25 GMT</pubDate>
+    <dc:date>2022-10-12T11:53:25Z</dc:date>
     <dc:language>no</dc:language>
     <dc:rights>2022 TV 2 AS</dc:rights>
     <image>
@@ -16,6 +16,18 @@
       <link>https://www.tv2.no/</link>
       <description>TV2.no - nyheter døgnet rundt</description>
     </image>
+    <item>
+      <title>Nedbør over hele Norge</title>
+      <link>https://www.tv2.no/a/15181875</link>
+      <description>Temperaturene holder seg stabile de neste dagene, men det samme kan ikke sies om været. Men det er ett fylke som skiller seg ut</description>
+      <enclosure url="https://www.cdn.tv2.no/images/?imageId=14773473&amp;panow=100&amp;panoh=100&amp;panoy=0&amp;panox=0&amp;heighty=0.32679738562092&amp;heightx=46.456692913386&amp;heightw=36.811023622047&amp;heighth=100.32679738562&amp;width=480" length="1" type="image/jpg" />
+      <category domain="section">Nyheter</category>
+      <category domain="tags">innenriks, meteorolog, meteor, nyheter, regn, vær</category>
+      <pubDate>Wed, 12 Oct 2022 11:53:25 GMT</pubDate>
+      <guid>https://www.tv2.no/a/15181875</guid>
+      <dc:creator>Rano Tahseen</dc:creator>
+      <dc:date>2022-10-12T11:53:25Z</dc:date>
+    </item>
     <item>
       <title>Espen (30) selger sexvideoer: – Livet er for kort til å angre</title>
       <link>https://www.tv2.no/a/15177171</link>
@@ -238,17 +250,6 @@
       <guid>https://www.tv2.no/a/15165435</guid>
       <dc:creator>Oda Flaten Lødemel</dc:creator>
       <dc:date>2022-10-11T16:49:13Z</dc:date>
-    </item>
-    <item>
-      <title>Skuespiller Frøydis Armand er død</title>
-      <link>https://www.tv2.no/a/15180000</link>
-      <description>De folkekjære skuespilleren ble 73 år gammel.</description>
-      <enclosure url="https://www.cdn.tv2.no/images/?imageId=15180006&amp;panox=0&amp;panoy=14.965986394558&amp;panow=100&amp;panoh=51.020408163265&amp;heighty=0&amp;heightx=18.884120171674&amp;heightw=40.772532188841&amp;heighth=100&amp;width=480" length="1" type="image/jpg" />
-      <category domain="section">Nyheter</category>
-      <category domain="tags">nyheter, frøydis-armand</category>
-      <pubDate>Tue, 11 Oct 2022 16:02:00 GMT</pubDate>
-      <guid>https://www.tv2.no/a/15180000</guid>
-      <dc:date>2022-10-11T16:02:00Z</dc:date>
     </item>
   </channel>
 </rss>
