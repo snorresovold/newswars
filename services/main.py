@@ -3,7 +3,6 @@ import xml.etree.ElementTree as ET
 import time
 
 channels = {
-    "dagbladet" : "https://www.dagbladet.no/?lab_viewport=rss",
     "vg" : "https://www.vg.no/rss/feed",
     "nrk" : "https://www.nrk.no/toppsaker.rss",
     "tv2" : "https://www.tv2.no/rest/cms-feeds-dw-rest/v2/cms/article/nyheter",
@@ -76,7 +75,7 @@ while True:
         print(curated_list)
         if len(curated_list) != 0:
             for i in curated_list:
-                requests.post("http://127.0.0.1:8000/", data={'title': i["title"], "img" : i["media"], "link" : i["link"], 'channel': id})
+                requests.post("http://127.0.0.1:8000/", data={'title': i["title"], "link" : i["link"], 'channel': id})
         else:
             print("curated list is empty")
 
