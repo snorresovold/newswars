@@ -63,6 +63,7 @@ def parse_file(file):
 while True:
     id = 0
     for x, y in channels.items():
+        print(f"id of {x} is {id}")
         old_list = parse_file(convert(x))
         # get scrape new items
         create_file(x, y)
@@ -71,7 +72,7 @@ while True:
 
         # curate
         curated_list = match(new_list, old_list)
-        print(f"done with {x}")
+        
         print(curated_list)
         if len(curated_list) != 0:
             for i in curated_list:
@@ -81,7 +82,9 @@ while True:
         else:
             print("curated list is empty")
 
+
         # we need to create a new file at the end so we can use it for the next old_list
         create_file(x, y)
         id += 1
-        print(f"id of {x} is {id}")
+        time.sleep(1)
+        print("sleeping")
