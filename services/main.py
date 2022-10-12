@@ -1,7 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
-import os
-import threading
+import time
 
 channels = {
     "dagbladet" : "https://www.dagbladet.no/?lab_viewport=rss",
@@ -61,6 +60,8 @@ def parse_file(file):
 
 
 while True:
+    time.sleep(3600) # sleep 1 hour
+    id = 0
     for x, y in channels.items():
         old_list = parse_file(convert(x))
         # get scrape new items
@@ -72,4 +73,16 @@ while True:
         curated_list = match(new_list, old_list)
         print(f"done with {x}")
         print(curated_list)
+        if len(curated_list) != 0:
+            for i in curated_list:
+                try:
+                    requests.post("http://127.0.0.1:8000/", data={'title': i["title"], "img" : i["media"], "link" : i["link"], 'channel': id})
+                except:
+                    print("couldt upload")
+        else:
+            print("curated list is empty")
+
+        # we need to create a new file at the end so we can use it for the next old_list
         create_file(x, y)
+        id += 1
+        print(f"id of {x} is {id}")
