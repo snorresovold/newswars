@@ -6,8 +6,8 @@
     <description>Aktuelle artikler fra TV 2</description>
     <language>no</language>
     <copyright>2022 TV 2 AS</copyright>
-    <pubDate>Wed, 12 Oct 2022 11:53:25 GMT</pubDate>
-    <dc:date>2022-10-12T11:53:25Z</dc:date>
+    <pubDate>Wed, 12 Oct 2022 13:19:59 GMT</pubDate>
+    <dc:date>2022-10-12T13:19:59Z</dc:date>
     <dc:language>no</dc:language>
     <dc:rights>2022 TV 2 AS</dc:rights>
     <image>
@@ -17,12 +17,48 @@
       <description>TV2.no - nyheter døgnet rundt</description>
     </image>
     <item>
+      <title>Dette blir de viktigste sporene</title>
+      <link>https://www.tv2.no/a/15181272</link>
+      <description>SKI (TV 2): Lars Reinholdt-Østbye har overtatt etterforskningen av Lørenskog-saken, og kaller det en krevende oppgave. For første gang møter han nå pressen.</description>
+      <enclosure url="https://www.cdn.tv2.no/images/?imageId=15181975&amp;panoy=18.367346938776&amp;panox=0&amp;panow=99.899447963801&amp;panoh=50.869238095238&amp;heightx=0&amp;heightw=100&amp;heighth=100&amp;heighty=0&amp;width=480" length="1" type="image/jpg" />
+      <category domain="section">Nyheter</category>
+      <category domain="tags">drap, anne-elisabeth-hagen, innenriks, lørenskog-saken, politiet, nyheter</category>
+      <pubDate>Wed, 12 Oct 2022 13:19:59 GMT</pubDate>
+      <guid>https://www.tv2.no/a/15181272</guid>
+      <dc:creator>Margrethe Håland Solheim</dc:creator>
+      <dc:date>2022-10-12T13:19:59Z</dc:date>
+    </item>
+    <item>
+      <title>Nye varslingsrutiner i Sp etter kritikk: Alle kan varsle</title>
+      <link>https://www.tv2.no/a/15182129</link>
+      <description>Det har vært sterk uro om varslingsrutinene i Senterpartiet etter at en rekke kvinner har stått fram og gitt uttrykk for at de ikke er blitt tatt på alvor av partiet. Nå blir det endringer i retningslinjene.</description>
+      <enclosure url="https://www.cdn.tv2.no/images/?imageId=15169142&amp;panoy=0&amp;panox=0&amp;panow=100&amp;panoh=100&amp;heightw=40.772532188841&amp;heighth=100&amp;heighty=0&amp;heightx=33.047210300429&amp;width=480" length="1" type="image/jpg" />
+      <category domain="section">Nyheter</category>
+      <category domain="tags">innenriks, knut m. olsen, wenche skallerud, sp, varsling, senterpartiet, seksuell trakassering, politikk, nyheter, liv signe navarsete</category>
+      <pubDate>Wed, 12 Oct 2022 12:37:06 GMT</pubDate>
+      <guid>https://www.tv2.no/a/15182129</guid>
+      <dc:creator>Ingvild Jensen</dc:creator>
+      <dc:date>2022-10-12T12:37:06Z</dc:date>
+    </item>
+    <item>
+      <title>FHI: – Situasjonen er uforutsigbar</title>
+      <link>https://www.tv2.no/a/15182176</link>
+      <description>I flere europeiske land ses nå økende smittespredning og sykehusinnleggelser med covid-19.</description>
+      <enclosure url="https://www.cdn.tv2.no/images/?imageId=14999241&amp;panox=0&amp;panow=100&amp;panoh=100&amp;panoy=0&amp;heighty=0&amp;heightx=0&amp;heightw=100&amp;heighth=100&amp;width=480" length="1" type="image/jpg" />
+      <category domain="section">Nyheter</category>
+      <category domain="tags">covid-19, innenriks, fhi, koronavirus, nyheter, folkehelseinstituttet</category>
+      <pubDate>Wed, 12 Oct 2022 12:17:00 GMT</pubDate>
+      <guid>https://www.tv2.no/a/15182176</guid>
+      <dc:creator>Renold T. Christopher</dc:creator>
+      <dc:date>2022-10-12T12:17:00Z</dc:date>
+    </item>
+    <item>
       <title>Nedbør over hele Norge</title>
       <link>https://www.tv2.no/a/15181875</link>
       <description>Temperaturene holder seg stabile de neste dagene, men det samme kan ikke sies om været. Men det er ett fylke som skiller seg ut</description>
-      <enclosure url="https://www.cdn.tv2.no/images/?imageId=14773473&amp;panow=100&amp;panoh=100&amp;panoy=0&amp;panox=0&amp;heighty=0.32679738562092&amp;heightx=46.456692913386&amp;heightw=36.811023622047&amp;heighth=100.32679738562&amp;width=480" length="1" type="image/jpg" />
+      <enclosure url="https://www.cdn.tv2.no/images/?imageId=14773473&amp;panoy=0&amp;panox=0&amp;panow=100&amp;panoh=100&amp;heightx=46.456692913386&amp;heightw=36.811023622047&amp;heighth=100.32679738562&amp;heighty=0.32679738562092&amp;width=480" length="1" type="image/jpg" />
       <category domain="section">Nyheter</category>
-      <category domain="tags">innenriks, meteorolog, meteor, nyheter, regn, vær</category>
+      <category domain="tags">innenriks, regn, vær, meteor, nyheter, meteorolog</category>
       <pubDate>Wed, 12 Oct 2022 11:53:25 GMT</pubDate>
       <guid>https://www.tv2.no/a/15181875</guid>
       <dc:creator>Rano Tahseen</dc:creator>
@@ -43,9 +79,9 @@
       <title>Mener Ukraina må få luftvern: – Det haster</title>
       <link>https://www.tv2.no/a/15181767</link>
       <description>Nye luftvernsystemer må sendes til Ukraina straks, sier Jens Stoltenberg før Nato-møte onsdag.</description>
-      <enclosure url="https://www.cdn.tv2.no/images/?imageId=15181773&amp;panox=0&amp;panow=100&amp;panoh=50.675675675676&amp;panoy=6.0810810810811&amp;heighth=84.248554913295&amp;heighty=0&amp;heightx=0&amp;heightw=100&amp;width=480" length="1" type="image/jpg" />
+      <enclosure url="https://www.cdn.tv2.no/images/?imageId=15181773&amp;panox=0&amp;panoy=6.0810810810811&amp;panow=100&amp;panoh=50.675675675676&amp;heightx=0&amp;heightw=100&amp;heighth=84.248554913295&amp;heighty=0&amp;width=480" length="1" type="image/jpg" />
       <category domain="section">Nyheter</category>
-      <category domain="tags">stoltenberg, nyheter, nato</category>
+      <category domain="tags">nyheter, stoltenberg, nato</category>
       <pubDate>Wed, 12 Oct 2022 10:01:47 GMT</pubDate>
       <guid>https://www.tv2.no/a/15181767</guid>
       <dc:creator>Fanny Bu</dc:creator>
@@ -214,42 +250,6 @@
       <guid>https://www.tv2.no/a/15162769</guid>
       <dc:creator>Janne Amble</dc:creator>
       <dc:date>2022-10-11T18:07:45Z</dc:date>
-    </item>
-    <item>
-      <title>Frykter streik: – Blir vi ikke enige, stenger 100 barnehager mandag</title>
-      <link>https://www.tv2.no/a/15179892</link>
-      <description>Det tilspisser seg mellom partene i tarifforhandlingene for private barnehager. Nå forberedes det streik.</description>
-      <enclosure url="https://www.cdn.tv2.no/images/?imageId=14577074&amp;panoy=34.013605442177&amp;panox=0&amp;panow=100&amp;panoh=51.020408163265&amp;heightw=40.772532188841&amp;heighth=100&amp;heighty=0&amp;heightx=35.19313304721&amp;width=480" length="1" type="image/jpg" />
-      <category domain="section">Nyheter</category>
-      <category domain="tags">arbeidsliv, lønnsoppgjør, barnehage, streik, nyheter, tariff, innenriks</category>
-      <pubDate>Tue, 11 Oct 2022 17:52:16 GMT</pubDate>
-      <guid>https://www.tv2.no/a/15179892</guid>
-      <dc:creator>Margrethe Håland Solheim</dc:creator>
-      <dc:date>2022-10-11T17:52:16Z</dc:date>
-    </item>
-    <item>
-      <title>Drepte gravid venninne og stjal baby – nå risikerer hun dødsstraff</title>
-      <link>https://www.tv2.no/a/15178629</link>
-      <description>Taylor Rene Parker (29) løy til kjæresten og sa at hun var gravid. For å dekke over sin falske graviditet, stjal hun en baby fra magen til venninnen sin.</description>
-      <enclosure url="https://www.cdn.tv2.no/images/?imageId=15178719&amp;panow=100.00353484163&amp;panoh=47.473298734177&amp;panoy=39.873417721519&amp;panox=0.0035348416289598&amp;heighty=0.0050400000000008&amp;heightx=27.188940092166&amp;heightw=43.782401843318&amp;heighth=100.00504&amp;width=480" length="1" type="image/jpg" />
-      <category domain="section">Nyheter</category>
-      <category domain="tags">nyheter, drap, viral, dødsstraff, baby, texas, gravid, venninner, rettssak, fengsel</category>
-      <pubDate>Tue, 11 Oct 2022 17:45:33 GMT</pubDate>
-      <guid>https://www.tv2.no/a/15178629</guid>
-      <dc:creator>Mariann Habbestad</dc:creator>
-      <dc:date>2022-10-11T17:45:33Z</dc:date>
-    </item>
-    <item>
-      <title>Bekymra for spekkhoggar-angrep</title>
-      <link>https://www.tv2.no/a/15165435</link>
-      <description>Gutegjengen frå Norge seglar kun om dagen for å unngå å bli råka av spekkhoggarar.</description>
-      <enclosure url="https://www.cdn.tv2.no/images/?imageId=15179691&amp;panoy=0&amp;panox=0&amp;panow=100&amp;panoh=100&amp;heightx=0&amp;heightw=100&amp;heighth=100&amp;heighty=0&amp;width=480" length="1" type="image/jpg" />
-      <category domain="section">Nyheter</category>
-      <category domain="tags">spekkhoggere, nyheter, spania, innenriks, dyr, portugal, seiling</category>
-      <pubDate>Tue, 11 Oct 2022 16:49:13 GMT</pubDate>
-      <guid>https://www.tv2.no/a/15165435</guid>
-      <dc:creator>Oda Flaten Lødemel</dc:creator>
-      <dc:date>2022-10-11T16:49:13Z</dc:date>
     </item>
   </channel>
 </rss>

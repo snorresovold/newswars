@@ -79,7 +79,10 @@ while True:
             for i in curated_list:
                 print("sleeping 1 second")
                 time.sleep(1) # hopeful error fix
-                requests.post("http://127.0.0.1:8000/", data={'title': i["title"], "link" : i["link"], 'channel': id})
+                try:
+                    requests.post("http://127.0.0.1:8000/", data={'title': i["title"], "link" : i["link"], 'channel': id})
+                except requests.exceptions.ConnectionError:
+                    print("Site not rechable", x)
         else:
             print("curated list is empty")
 
