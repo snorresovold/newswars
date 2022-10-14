@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "news",
 ]
 
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 MIDDLEWARE = [
