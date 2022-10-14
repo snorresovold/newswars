@@ -1,7 +1,6 @@
 from rest_framework.serializers import ModelSerializer, SerializerMethodField
 from .models import Channel, News
 
-
 class NewsSerializer(ModelSerializer):
     class Meta:
         model = News
@@ -12,9 +11,7 @@ class ChannelSerializer(ModelSerializer):
 
     def get_news(self, obj):  # allows us to filter what news we get
         news = list(reversed(obj.news.all()))[:24] # get 24 nested news (reversed)
-        #Email.objects.values_list('email', flat=True).distinct()
-
-        return NewsSerializer(news, many=True).data
+        return NewsSerializer(news, many=True).data 
 
     class Meta:
         model = Channel
