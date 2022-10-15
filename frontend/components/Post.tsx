@@ -6,15 +6,10 @@ function Post({ props, channel, color }:any) {
   return (
     <div className='m-4'>
       <a href={props.link} className="block overflow-hidden rounded-2xl">
-        <img
-          src={props.img}
-          className="object-cover w-full h-56"
-        />
-
         <div className="p-4" style={{ backgroundColor: color }}>
           <p className="text-xs text-black">{channel}</p>
 
-          <h5 className="text-sm text-black">
+          <h5>
             {props.title}
           </h5>
 
